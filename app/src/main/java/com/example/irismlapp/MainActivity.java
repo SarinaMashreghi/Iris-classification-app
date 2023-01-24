@@ -81,30 +81,10 @@ public class MainActivity extends AppCompatActivity {
             // TODO Handle the exception
         }
 
+    }
 
-//        try {
-//            Iris model = Iris.newInstance(this);
-//
-//            TensorBuffer inputFeature0 = TensorBuffer.createFixedSize(new int[]{1, 4}, DataType.FLOAT32);
-//            inputFeature0.loadBuffer(byteBuffer);
-//
-//            Iris.Outputs outputs = model.process(inputFeature0);
-//            float[] outputFeature0 = outputs.getOutputFeature0AsTensorBuffer().getFloatArray();
-//
-//            TextView result = findViewById(R.id.view);
-//
-//            result.setText("Iris-setosa: " +String.valueOf(outputFeature0[0]) + "\n" +
-//                    "Iris-versicolar: " + String.valueOf(outputFeature0[1]) + "\n" +
-//                    "Iris-virginica: " + String.valueOf(outputFeature0[2]));
-//
-//            test.setText(outputFeature0[0]+" "+outputFeature0[1]+" "+outputFeature0[2]+"");
-//
-//            model.close();
-//
-//        } catch (IOException e) {
-//            // TODO Handle the exception
-//        }
-//
+    public void predict_v2(View v){
+
     }
 
 
